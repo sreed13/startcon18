@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
+
+<body>
+
+<div class="jumbotron text-center">
+  <div class="container">  
+      <img src="/lang-logo.png">
+    <h2>Welcome to Heroku!</h2>
+  </div>
+</div>
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+      Items in <b>bold</b> are important for the quiz!
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3><span class="glyphicon glyphicon-info-sign"></span>  What is Heroku?</h3>
+      <h4 class="bodytext">A <b>cloud platform</b> based on a managed container system, with integrated data services and a powerful ecosystem, <b>for deploying and running modern apps</b></h4>
+
+      <hr>
+      <h3><span class="glyphicon glyphicon-info-sign"></span>  How does it support fast application development?</h3>
+      <h4 class="bodytext">It's designed by developers for developers</h4>
+      <h4 class="bodytext">We can <b>link a GitHub repository</b> and use a command line interface and simple user interface <b>to support contunous integration</b></h4>
+      <h4 class="bodytext">We can use <b>Heroku Pipelines</b> to deploy through a continous delivery workflow using <b>review, staging and production</b> applications</h4>
+
+      <hr>
+      <h3><span class="glyphicon glyphicon-info-sign"></span>  How does scale?</h3>
+      <h4 class="bodytext">Heroku runs on Amazon Web Services <b>(AWS)</b> and can scale horizontally and vertically to support enterprise workloads</h4>
+      
+      <hr>
+      <h3><span class="glyphicon glyphicon-info-sign"></span>  How does AI fit in?</h3>
+      <h4 class="bodytext">Heroku has an ecosystem of add-ons that are fully managed</h4>
+      <h4 class="bodytext"><b>Einstein Vision</b> and <b>Einstein Language</b> are 2 examples of add-ons that developers can use to build AI powered apps fast </h4>
+      <h4 class="bodytext">Einstein Vision allows you to build AI-powered applications by embedding image recognition into your application workflows so that you can do things like visual product search, product identification, and automated planogram analysis. Einstein Vision includes two APIs: Einstein Image Classification and Einstein Object Detection.</h4>
+      <h4 class="bodytext">Einstein Language allows you to build AI-powered applications by embedding natural language processing into your application workflows so that you can do things like intelligent case routing, community sentiment analysis, and smart lead trending.</h4>
+    </div>
+  </div> <!-- row -->
+
+</div>
+
+</body>
+</html>
